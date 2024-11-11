@@ -29,7 +29,7 @@ while len(unsorted_list) > 0:
     max = unsorted_list[0]
     for i in range(0, len(unsorted_list)):
      for t in range(0, len(unsorted_list)):
-        counter_2 +- 1
+        counter_2 += 1
         if unsorted_list[i] > max:
             max = unsorted_list[i]
     sorted_list.append(max)
